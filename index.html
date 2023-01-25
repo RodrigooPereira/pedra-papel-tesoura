@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedra Papel Tesoura</title>
+</head>
+<body>
+    <h1>Pedra Papel ou Tesoura</h1>
+    <div class="weapons-box">
+        <div class="weapons">
+            <div>
+                <img onclick="pedra()" class="weapon" src="images/rock.png" alt="">
+            </div>
+            <div>
+                <img onclick="papel()" class="weapon" src="images/paper.png" alt="">
+            </div>
+            <div>
+                <img onclick="tesoura()" class="weapon" src="images/scissors.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="score_box">
+        <div class="player_score_box">
+            <p>Jogador:</p>
+            <p id="player_score"></p>
+        </div>
+        <div class="pc_score_box">
+            <p>Computador:</p>
+            <p id="pc_score"></p>
+        </div>
+    </div>
+    <p id="resultado_final"></p>
+    <script src="script.js"></script>
+</body>
+</html>

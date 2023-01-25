@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weapons-box {
+    display: flex;
+    justify-content: center;
+}
+
+.weapons {
+    justify-content: center;
+    display: flex;
+    width: 40vw;
+    gap: 25px;
+}
+
+.weapon {
+    max-width: 100px;
+    width: 100%;
+}
+
+.score_box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
